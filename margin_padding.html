@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5</title>
+    <style>
+        /* small devices(landscape phones) */
+        
+        @media (min-width: 576px) {
+            h1 {
+                background: red;
+            }
+        }
+        /* medium devices(tablets) */
+        
+        @media (min-width: 768px) {
+            h1 {
+                background: blue;
+            }
+        }
+        /* Large devices(desktops) */
+        
+        @media (min-width: 992px) {
+            h1 {
+                background: green;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+    <h1 class="display-3 text-center my-4">Spacing</h1>
+    <div class="container d-flex h-25 w-50">
+        <!-- mb - margin bottom -->
+
+        <h1 class="bg-success py-4 mb-4 text-sm-center w-25 float-left">
+            Lorem <span class="bg-primary mx-3 px-4 py-3">Ipsum</span>
+        </h1>
+        <h1 class="bg-warning mb-4 py-4 mx-4 px-2 text-lg-center w-25 float-left">
+            Lorem Ipsum
+        </h1>
+        <h1 class="bg-default py-4 text-center float-left w-25">
+            Lorem <span class="bg-danger mx-3 px-4 py-3">Ipsum</span>
+        </h1>
+        <h1 class="bg-primary mt-4 py-4 text-center w-25 float-left">
+            Lorem <span class="bg-info mx-3 px-4 py-3">Ipsum</span>
+        </h1>
+        <h1 class="bg-danger text-white mb-4 py-4 text-center w-25 float-left">
+            Lorem <span class="bg-warning mx-3 px-4 py-3">Ipsum</span>
+        </h1>
+        <h1 class="bg-dark text-warning py-4 text-center w-25 float-left">
+            Lorem <span class="bg-success mx-3 px-4 py-3">Ipsum</span>
+        </h1>
+    </div>
+</body>
+
+</html>
